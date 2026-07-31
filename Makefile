@@ -16,6 +16,10 @@ test: ## Run all tests
 vet: ## Run go vet
 	go vet ./...
 
+.PHONY: lint
+lint: ## Run golangci-lint
+	golangci-lint run ./...
+
 .PHONY: install
 install: ## go install grammarly from this checkout
 	go install ./cmd/grammarly
