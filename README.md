@@ -1,5 +1,10 @@
 # grammarly
 
+[![lint](https://github.com/bigtalk-org/grammarly/actions/workflows/lint.yml/badge.svg)](https://github.com/bigtalk-org/grammarly/actions/workflows/lint.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/bigtalk-org/grammarly.svg)](https://pkg.go.dev/github.com/bigtalk-org/grammarly)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bigtalk-org/grammarly)](https://goreportcard.com/report/github.com/bigtalk-org/grammarly)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+
 Checks a literate grammar doc (e.g. BigTalk's `docs/spec/grammar.md`) against
 the lexer's actual token enum (e.g. `lexer/token.go`) for drift.
 
